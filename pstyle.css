@@ -1,0 +1,54 @@
+.profile-card{
+    margin: 30px auto;
+    width: 300px;
+    height: 400px;
+    background-color: #a3a0a0;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    padding: 20px ;
+    text-align: center;
+}
+.profile-card img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.profile-name{
+
+    margin: 0;
+    font-size: 24px;
+    font-style: italic;
+
+}
+.profile-title{
+    font-size: 18px;
+    font-style: italic;
+}
+.profile-email{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.profile-name,profile-title, .profile-email{
+    margin: 10px 0;
+    padding: 5px;
+}
+
+
+.follow-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #637976f7;
+    border: 2px solid #1b282628;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.follow-btn:hover{
+    background-color: #97b9b4f7;
+    border: 2px solid #1b282628;
+    cursor: pointer;
+}
